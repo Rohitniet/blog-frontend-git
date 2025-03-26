@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+/* Custom CSS to hide the scrollbar while allowing scrolling */
+.custom-scrollbar::-webkit-scrollbar {
+    display: none; /* Hide the scrollbar in WebKit browsers (Chrome, Safari, and Edge Chromium) */
+  }
+  
+  .custom-scrollbar {
+    -ms-overflow-style: none; /* Hide scrollbar in legacy Edge (non-Chromium) */
+    scrollbar-width: none; /* Hide scrollbar in Firefox */
+  }
+  
